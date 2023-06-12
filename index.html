@@ -32,19 +32,120 @@
         </div>
         <div id="contenu">
             <h3>SAPES TENDANCES!</h3>
-            <p><img id="img5" src="image\Sapes1.png"></p>
-            <p><img id="img6" src="image\Sapes2.png"></p>
-            <p><img id="img7" src="image\Sapes3.png"></p>
-            <p><img id="img8" src="image\Sapes4.png"></p>
-            <p><img id="img9" src="image\Sapes5.png"></p>
+            <div id="carrousel1">
+                <div id="container1">
+    
+                </div>
+                <img src="image/bouton.png" class="bouton" id="d1"/>
+                <img src="image/bouton.png" class="bouton" id="g1"/>
+            </div>
+            
             <h4>SNEAKERS TENDANCES!</h4>
-            <p><img id="img10" src="image\Sneakers1.png"></p>
-            <p><img id="img11" src="image\Sneakers2.png"></p>
-            <p><img id="img12" src="image\Sneakers3.png"></p>
-            <p><img id="img13" src="image\Sneakers4.png"></p>
-            <p><img id="img14" src="image\Sneakers5.png"></p>
-            <p><img id="img15" src="image\Style1.png"></p>
-            <p><img id="img16" src="image\Style2.png"></p>
+            <div id="carrousel2">
+                <div id="container2">
+    
+                </div>
+                <img src="image/bouton.png" class="bouton" id="d2"/>
+                <img src="image/bouton.png" class="bouton" id="g2"/>
+            </div>
+            <script>
+                document.body.onload=function(){
+                    nbr1=5;
+                    p1=0;
+                    container1=document.getElementById("container1");
+                    g1=document.getElementById("g1");
+                    d1=document.getElementById("d1");
+                    container1.style.width=(1600*nbr1)+"px";
+                    for(i=1;i<=nbr1;i++){
+                        div=document.createElement("div");
+                        div.className="photo";
+                        div.style.backgroundImage="url('image/Sapes"+i+".png')";
+                        container1.appendChild(div);
+                    }
+
+                    nbr2=7;
+                    p2=0;
+                    container2=document.getElementById("container2");
+                    g2=document.getElementById("g2");
+                    d2=document.getElementById("d2");
+                    container2.style.width=(1600*nbr2)+"px";
+                    for(j=1;j<=nbr2;j++){
+                        div=document.createElement("div");
+                        div.className="photo";
+                        div.style.backgroundImage="url('image/Sneakers"+j+".png')";
+                        container2.appendChild(div);
+                    }
+
+                }
+
+                g1.onclick=function(){
+                    if(p1<0){
+                        p1++;
+                    }
+                    container1.style.transform="translate("+p1*1600+"px)";
+                    container1.style.transition="all 0.5s ease";
+                    afficherMasquer1();
+                }
+
+                d1.onclick=function(){
+                    if(p1>-nbr1+1){
+                        p1--;
+                    }
+                   
+                    container1.style.transform="translate("+p1*1600+"px)";
+                    container1.style.transition="all 0.5s ease";
+                    afficherMasquer1();
+                }
+
+                g2.onclick=function(){
+                    if(p2<0){
+                        p2++;
+                    }
+                    container2.style.transform="translate("+p2*1600+"px)";
+                    container2.style.transition="all 0.5s ease";
+                    afficherMasquer2();
+                }
+
+                d2.onclick=function(){
+                    if(p2>-nbr2+1){
+                        p2--;
+                    }
+                   
+                    container2.style.transform="translate("+p2*1600+"px)";
+                    container2.style.transition="all 0.5s ease";
+                    afficherMasquer2();
+                }
+
+                function afficherMasquer1(){
+                    if(p1==-nbr1+1){
+                        d1.style.visibility="hidden";
+                    }
+                    else{
+                        d1.style.visibility="visible";
+                    }
+                    if(p1==0){
+                        g1.style.visibility="hidden";
+                    }
+                    else{
+                        g1.style.visibility="visible";
+                    }
+                }
+
+                function afficherMasquer2(){
+                    if(p2==-nbr2+1){
+                        d2.style.visibility="hidden";
+                    }
+                    else{
+                        d2.style.visibility="visible";
+                    }
+                    if(p2==0){
+                        g2.style.visibility="hidden";
+                    }
+                    else{
+                        g2.style.visibility="visible";
+                    }
+                }
+            </script>
         </div>
     </body>
 </html>

@@ -1,7 +1,4 @@
 body{
-    position: relative;
-    width: 1920px;
-    height: 3092px;
     background: #FFFFFF;
    
 }
@@ -202,61 +199,13 @@ h3{
     color: #E50000;
 }
 
-#img5{
-    border-radius: 46px;
-    position: absolute;
-    width: 358px;
-    height: 358px;
-    left: 152px;
-    top: 100px;
-    font-size: 10px;
-}
-
-#img6{
-    border-radius: 46px;
-    position: absolute;
-    width: 358px;
-    height: 358px;
-    left: 552px;
-    top: 100px;
-    font-size: 10px;
-}
-
-#img7{
-    border-radius: 46px;
-    position: absolute;
-    width: 358px;
-    height: 358px;
-    left: 952px;
-    top: 100px;
-    font-size: 10px;
-}
-
-#img8{
-    border-radius: 46px;
-    position: absolute;
-    width: 358px;
-    height: 358px;
-    left: 1352px;
-    top: 100px;
-    font-size: 10px;
-}
-
-#img9{  
-    position: absolute;
-    width: 179px;
-    height: 358px;
-    left: 1752px;
-    top: 100px;
-    border-radius: 46px;
-}
 
 h4{
     position: absolute;
     width: 594px;
     height: 42px;
     left: 205px;
-    top: 500px;
+    top: 1000px;
     font-family: 'Kanit';
     font-style: normal;
     font-weight: bolder;
@@ -265,67 +214,105 @@ h4{
     color: #E50000;
 }
 
-#img10{
-    border-radius: 46px;
-    position: absolute;
-    width: 358px;
-    height: 358px;
+
+#carrousel1{
+    position:relative;
+    width: 1600px;
+    height: 900px;
     left: 152px;
-    top: 600px;
-    font-size: 10px;
+    top: 100px;
+    border:solid 4px #FFF;
+    box-shadow:0 0 14px rgba(0,0,0,0.3);
+    overflow:hidden;
 }
 
-#img11{
-    border-radius: 46px;
-    position: absolute;
-    width: 358px;
-    height: 358px;
-    left: 552px;
-    top: 600px;
-    font-size: 10px;
-}
-
-#img12{
-    border-radius: 46px;
-    position: absolute;
-    width: 358px;
-    height: 358px;
-    left: 952px;
-    top: 600px;
-    font-size: 10px;
-}
-
-#img13{
-    border-radius: 46px;
-    position: absolute;
-    width: 358px;
-    height: 358px;
-    left: 1352px;
-    top: 600px;
-    font-size: 10px;
-}
-
-#img14{  
-    position: absolute;
-    width: 179px;
-    height: 358px;
-    left: 1752px;
-    top: 600px;
-    border-radius: 46px;
-}
-
-#img15{
-    position: absolute;
-    width: 960px;
-    height: 533px;
+#carrousel2{
+    position:relative;
+    width: 1600px;
+    height: 900px;
     left: 152px;
-    top: 1100px;
+    top: 200px;
+    border:solid 4px #FFF;
+    box-shadow:0 0 14px rgba(0,0,0,0.3);
+    overflow:hidden;
 }
 
-#img16{
-    position: absolute;
-    width: 533px;
-    height: 533px;
-    left: 1200px;
-    top: 1100px;
+
+
+#container1{
+    width:1600px;
+    height:900px;
+}
+
+#container2{
+    width:1600px;
+    height:900px;
+}
+
+
+.photo{
+    width:1600px;
+    height: 900px;
+    margin:0;
+    display: inline-block;
+    background-size: cover;
+}
+
+.bouton{
+    position:absolute;
+    width:70px;
+    cursor:pointer;
+    top:450px;
+}
+
+#g1{
+    left:0;
+    opacity:0.4;
+    transform:rotate(0deg);
+    transition:all 0.3s ease;
+}
+
+#d1{
+    right:0;
+    opacity:0.4;
+    transform:rotate(180deg);
+    transition:all 0.3s ease;
+}
+
+#g1:hover{
+    transform: rotate(0deg) scale(1.1);
+    opacity:1;
+    transition:all 0.3s ease;
+}
+
+#d1:hover{
+    transform: rotate(180deg) scale(1.1);
+    opacity:1;
+    transition:all 0.3s ease;
+}
+
+#g2{
+    left:0;
+    opacity:0.4;
+    transform:rotate(0deg);
+    transition:all 0.3s ease;
+}
+
+#d2{
+    right:0;
+    opacity:0.4;
+    transform:rotate(180deg);
+    transition:all 0.3s ease;
+}
+
+#g2:hover{
+    transform: rotate(0deg) scale(1.1);
+    opacity:1;
+    transition:all 0.3s ease;
+}
+
+#d2:hover{
+    transform: rotate(180deg) scale(1.1);
+    opacity:1;
+    transition:all 0.3s ease;
 }
