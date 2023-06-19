@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Sneaky</title>
+		<meta charset="utf-8" />
+		<style type="text/css">
+			@import url(parcourir.css);
+		</style>
+	</head>
+	<body>
+        <div id="entete">
+            <nav>
+                <p id="Sneaky"><a href="index.html">Sneaky</a></p>
+                <div id="recherche">
+                    <label5>Recherche...</label5>
+                    <p><img id="img1" src="image\Recherche1.png"></p>
+                </div>
+                <ul>
+                    <li id="parcourir"><a href="parcourir.html">Parcourir</a></li>
+                    <li id="actualités"><a href="actualités.html" >Actualités</a></li>
+                    <li id="a_propos"><a href="a_propos.html">A propos</a></li>
+                    <li id="aide"><a href="aide.html">Aide</a></li>
+                </ul>
+                <p id="panier"><a href="panier.html"><img id="img2" src="image\Panier1.png"></a></p>
+                <p id="compte"><a href="compte.html"><img id="img3" src="image\Compte1.png"></a></p>
+            </nav>
+            <div id="contenu">
+                <div id="trier">
+                    <label6>Trier</label6>
+                </div>
+                <div id="type_produit">
+                    <label7>Type de produits</label7>
+                </div>
+                <div id="style">
+                    <label8>Style</label8>
+                </div>
+                <div id="marque">
+                    <label9>Marque</label9>
+                </div>
+                <div id="couleur">
+                    <label10>Couleur</label10>
+                </div>
+                <div id="carrousel1">
+                    <div id="container1">
+        
+                    </div>
+                    <img src="image/bouton.png" class="bouton" id="d1"/>
+                    <img src="image/bouton.png" class="bouton" id="g1"/>
+                </div>
+                <label1>Marque | Produit | Couleur</label1>
+                <label2>00,00€</label2>
+            </br>
+                <div id="carrousel2">
+                    <div id="container2">
+        
+                    </div>
+                    <img src="image/bouton.png" class="bouton" id="d2"/>
+                    <img src="image/bouton.png" class="bouton" id="g2"/>
+                </div>
+                <label3>Marque | Produit | Couleur</label3>
+                <label4>00,00€</label4>
+                <script>
+                    document.body.onload=function(){
+                        nbr1=8;
+                        p1=0;
+                        container1=document.getElementById("container1");
+                        g1=document.getElementById("g1");
+                        d1=document.getElementById("d1");
+                        container1.style.width=(411*nbr1)+"px";
+                        for(i=1;i<=nbr1;i++){
+                            div=document.createElement("div");
+                            div.className="photo";
+                            div.style.backgroundImage="url('image/Haut"+i+".png')";
+                            container1.appendChild(div);
+                        }
+
+                        nbr2=8;
+                        p2=0;
+                        container2=document.getElementById("container2");
+                        g2=document.getElementById("g2");
+                        d2=document.getElementById("d2");
+                        container2.style.width=(411*nbr2)+"px";
+                        for(j=1;j<=nbr2;j++){
+                            div=document.createElement("div");
+                            div.className="photo";
+                            div.style.backgroundImage="url('image/Divers"+j+".png')";
+                            container2.appendChild(div);
+                        }
+
+                    }
+
+                    g1.onclick=function(){
+                        if(p1<0){
+                            p1++;
+                        }
+                        container1.style.transform="translate("+p1*411+"px)";
+                        container1.style.transition="all 0.5s ease";
+                        afficherMasquer1();
+                    }
+
+                    d1.onclick=function(){
+                        if(p1>-nbr1+1){
+                            p1--;
+                        }
+                    
+                        container1.style.transform="translate("+p1*411+"px)";
+                        container1.style.transition="all 0.5s ease";
+                        afficherMasquer1();
+                    }
+
+                    g2.onclick=function(){
+                        if(p2<0){
+                            p2++;
+                        }
+                        container2.style.transform="translate("+p2*411+"px)";
+                        container2.style.transition="all 0.5s ease";
+                        afficherMasquer2();
+                    }
+
+                    d2.onclick=function(){
+                        if(p2>-nbr2+1){
+                            p2--;
+                        }
+                    
+                        container2.style.transform="translate("+p2*411+"px)";
+                        container2.style.transition="all 0.5s ease";
+                        afficherMasquer2();
+                    }
+
+                    function afficherMasquer1(){
+                        if(p1==-nbr1+1){
+                            d1.style.visibility="hidden";
+                        }
+                        else{
+                            d1.style.visibility="visible";
+                        }
+                        if(p1==0){
+                            g1.style.visibility="hidden";
+                        }
+                        else{
+                            g1.style.visibility="visible";
+                        }
+                    }
+
+                    function afficherMasquer2(){
+                        if(p2==-nbr2+1){
+                            d2.style.visibility="hidden";
+                        }
+                        else{
+                            d2.style.visibility="visible";
+                        }
+                        if(p2==0){
+                            g2.style.visibility="hidden";
+                        }
+                        else{
+                            g2.style.visibility="visible";
+                        }
+                    }
+                </script>
+            </div>
+        </div>
+        <footer>
+            <p>Nous Contacter 06 42 16 76 47 | corentin.lartigue.cl@gmail.com</p>
+            <p>Créé par Lartigue Corentin</p>
+        </footer>
+    </body>
+</html>

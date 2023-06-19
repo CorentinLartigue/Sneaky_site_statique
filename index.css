@@ -1,5 +1,5 @@
 body{
-    background: #FFFFFF;
+    background: #FFEAEA;
    
 }
 
@@ -315,4 +315,21 @@ h4{
     transform: rotate(180deg) scale(1.1);
     opacity:1;
     transition:all 0.3s ease;
+}
+
+footer {
+    position: absolute;
+    width:1880px;
+    top: 3150px;
+    background-color:#FBEDED ;
+    padding: 20px;
+    text-align: center;
+    margin:0;
+}
+
+footer p {
+    margin: 0;
+    color: #994242;
+    font-family: Montserrat;
+    font-size: 30px;
 }
