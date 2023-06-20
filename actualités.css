@@ -36,7 +36,7 @@ nav{
     border-radius: 34.5px;
 }
 
-#recherche label{
+#recherche label1{
     position: absolute;
     left: 20px;
     top: 20px;
@@ -131,22 +131,13 @@ a:hover{
     bottom: 96.25%;
 }
 
-#boots{
-    position: absolute;
-    width: 434px;
-    height: 69px;
-    left: 80px;
-    top: 400px;
-    background: #FFCBCB;
-    border-radius: 34.5px;
-}
 
-#boots label {
+label2 {
     position: absolute;
     width: 759px;
     height: 232px;
     left: 101px;
-    top: 179px;
+    top: 279px;
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 500;
@@ -155,53 +146,212 @@ a:hover{
     color: #FFFFFF;
 }
 
-#infos1{
+#info1{
     position: absolute;
-    width: 287px;
+    width: 250px;
     height: 60px;
-    left: 536px;
-    top: 1000px;
+    left: 505px;
+    top: 525px;
     background: #E50000;
     border-radius: 44px;
 }
 
-#infos1 label{
+#info1 label3{
     position: absolute;
     left: 20px;
-    top: 15px;
+    top: 20px;
     font-family: 'Kanit';
     font-style:normal;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 99.1%;
     color: #FFFFFF;
 }
 
-#infos1 img{
+#img4{
     position: absolute;
-    left: 85%;
-    right: 69.27%;
-    top: 9%;
-    bottom: 75.29%;
+    right: 5px;
+    top:5px;
 }
 
-#boots img{
+#img5{
     position: absolute;
     left: 1000px;
     width: 759px;
     height: 500px;
     top: 200px;
+    size-adjust: 30px;
 }
 
+#img6{
+    position:absolute;
+    left:-250px;
+    top: 500px;
+}
+
+label4{
+    position: absolute;
+    width: 759px;
+    height: 232px;
+    left: 994px;
+    top: 975px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 99.1%;
+    color: #994242;
+}
+
+#info2{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 1400px;
+    top: 1300px;
+    background: #E50000;
+    border-radius: 44px;
+}
+
+#info2 label5{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-family: 'Kanit';
+    font-style:normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 99.1%;
+    color: #FFFFFF;
+}
+
+#img7{
+    position: absolute;
+    right: 5px;
+    top:5px;
+}
+
+#img8{
+    position: absolute;
+    left: 0px;
+    width: 759px;
+    height: 500px;
+    top: 900px;
+    size-adjust: 30px;
+}
+
+label6{
+    position: absolute;
+    width: 759px;
+    height: 232px;
+    left: 101px;
+    top: 1723px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 73px;
+    line-height: 99.1%;
+    color: #FFFFFF;
+}
+
+#info3{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 405px;
+    top: 1925px;
+    background: #E50000;
+    border-radius: 44px;
+}
+
+#info3 label7{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-family: 'Kanit';
+    font-style:normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 99.1%;
+    color: #FFFFFF;
+}
+
+#img9{
+    position: absolute;
+    right: 5px;
+    top:5px;
+}
+
+#img10{
+    position: absolute;
+    left: 1000px;
+    top: 1700px;
+    border-radius: 50px;
+}
+
+#img11{
+    position:absolute;
+    left:-250px;
+    top: 1900px;
+}
+
+label8{
+    position: absolute;
+    width: 759px;
+    height: 232px;
+    left: 994px;
+    top: 2700px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 99.1%;
+    color: #994242;
+}
+
+#info4{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 1400px;
+    top: 2900px;
+    background: #E50000;
+    border-radius: 44px;
+}
+
+#info4 label9{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-family: 'Kanit';
+    font-style:normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 99.1%;
+    color: #FFFFFF;
+}
+
+#img12{
+    position: absolute;
+    right: 5px;
+    top:5px;
+}
+
+#img13{
+    position: absolute;
+    left: 100px;
+    top: 2400px;
+    border-radius: 50px;
+}
 
 footer {
     position: absolute;
-    width:1880px;
-    top: 2100px;
-    background-color:#FBEDED ;
+    width:1885px;
+    top: 3125px;
+    background-color:#FFCBCB ;
     padding: 20px;
     text-align: center;
-    margin:0;
+    left:1px;
 }
 
 footer p {

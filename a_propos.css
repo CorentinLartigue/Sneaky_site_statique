@@ -1,0 +1,282 @@
+body{
+    background: url(image/Fond1.png);
+}
+
+nav{
+    position: absolute;
+    width: 1734px;
+    height: 105px;
+    left: 50px;
+    top: 37px;
+}
+
+
+#Sneaky a{
+    position: absolute;
+    width: 285px;
+    height: 105px;
+    left: 75px;
+    top: 37px;
+    font-family: 'Salsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 99.1%;
+    letter-spacing: -0.09em;
+    color: #994242;
+}
+
+#recherche{
+    position: absolute;
+    width: 434px;
+    height: 69px;
+    left: 350px;
+    top: 54px;
+    background: #FFEAEA;
+    border-radius: 34.5px;
+}
+
+#recherche label1{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-family: 'Kanit';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 99.1%;
+    color: #994242;
+    opacity: 0.34;
+}
+
+#img1{
+    position: absolute;
+    left: 90%;
+    right: 57.6%;
+    top: 30%;
+    bottom: 96.38%;
+}
+
+#parcourir{
+    position: absolute;
+    width: 117px;
+    height: 26px;
+    left: 850px;
+    top: 86px;
+}
+
+#actualités{
+    position: absolute;
+    width: 127px;
+    height: 26px;
+    left: 1050px;
+    top: 86px;
+}
+
+#a_propos{
+    position: absolute;
+    width: 112px;
+    height: 26px;
+    left: 1250px;
+    top: 86px;
+}
+
+#aide{
+    position: absolute;
+    width: 112px;
+    height: 26px;
+    left: 1450px;
+    top: 86px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #994242;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 99.1%;
+}
+
+a:hover{
+    text-decoration: underline 3px solid #994242;
+    transition: all 0.3s ease-in-out;
+}
+
+#img2{
+    position: absolute;
+    left: 1600px;
+    right: 11.67%;
+    top: 70px;
+    bottom: 96.25%;
+}
+
+
+#img3{
+    position: absolute;
+    left: 1750px;
+    right: 11.67%;
+    top: 75px;
+    bottom: 96.25%;
+}
+
+h1{
+    position: absolute;
+    width: 853px;
+    height: 112px;
+    left: 522px;
+    top: 215px;
+    
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 99.1%;
+    /* or 89px */
+    color:#ffdfdd;
+    text-align: center;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: #994242;
+}
+
+h2{
+    position: absolute;
+    width: 123px;
+    height: 50px;
+    left: 624px;
+    top: 410px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 99.1%;
+    color: #994242;
+}
+
+label2{
+    position: absolute;
+    width: 654px;
+    height: 441px;
+    left: 93px;
+    top: 550px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 99.1%;
+    text-align: right;
+    color: #994242;
+}
+
+#img4{
+    position: absolute;
+    width: 936px;
+    height: 526px;
+    left: 890px;
+    top: 500px;
+    border-radius: 67px;
+}
+
+#img5{
+    position: absolute;
+    width: 1056px;
+    height: 594px;
+    left: 100px;
+    top: 1200px;
+}
+
+h3{
+    position: absolute;
+    width: 96px;
+    height: 100px;
+    left: 1300px;
+    top: 1117px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 99.1%;
+    color: #994242;
+}
+
+label3{
+    position: absolute;
+    width: 654px;
+    height: 441px;
+    left: 1300px;
+    top: 1250px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 99.1%;
+    color: #994242; 
+}
+
+#titre{
+    position: absolute;
+    width: 1682px;
+    height: 510px;
+    left: 144px;
+    top: 1900px;
+    background: #230A0A;
+    border-radius: 60px;
+}
+
+#titre label4{
+    position: absolute;
+    width: 713px;
+    height: 281px;
+    left: 550px;
+    top: 100px;
+    font-family: 'Salsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 250px;
+    line-height: 99.1%;
+    letter-spacing: -0.09em;
+    color: #FFCBCB;
+}
+
+label5{
+    position: absolute;
+    width: 926px;
+    height: 508px;
+    left: 558px;
+    top: 2500px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 99.1%;
+    text-align: center;
+    color: #994242;
+}
+
+footer {
+    position: absolute;
+    width:1880px;
+    top: 2800px;
+    background-color: #230A0A ;
+    padding: 20px;
+    text-align: center;
+    margin:0;
+}
+
+footer p {
+    margin: 0;
+    color: #FFCBCB;
+    font-family: Montserrat;
+    font-size: 30px;
+}
